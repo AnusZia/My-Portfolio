@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+    
+}
+
+@font-face {
+    font-family: agustina-regular;
+    src: url(assests/fonts/Agustina-Signature.otf);
+
+
+}
+@font-face {
+    font-family: montserrrat-regular;
+    src: url(assests/fonts/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf);}
+
+    h1{
+        font-family: montserrrat-regular;
+    }
+    p{
+        font-family: montserrrat-regular;
+    }
+.header{
+    background-color:white;
+   overflow: hidden;
+    padding-top: 10px;
+    
+}
+.logo a{
+   
+    font-size: 1.8rem;
+    font-family: agustina-regular;
+    color:rgb(92, 13, 166);
+    font-weight: 600;
+}
+.logo span{
+    font-size: 1.8rem;
+    color: #c3c3c3;;
+}
+.logo{
+    padding-right: 290px;
+}
+.gap{
+    gap: 25px;
+
+}
+.nav-item{
+   
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+font-family: montserrrat-regular;
+}
+.nav-item a:hover{
+    background-color:rgb(209, 209, 209);
+}
+.banner{
+    padding-top: 30px;
+}
+.content-area{
+    width: 60%;
+    font-family: montserrrat-regular;
+    font-weight: 500;
+}
+.content-area h1{
+    padding-top: 70px;
+    font-size: 60px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    
+}
+.content-area p{
+    padding-top: 100x;
+    font-size: 25px;
+    color:#868e96;;
+    
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.image img{
+    object-fit: contain;
+    width: 100%;
+}
+.icons{
+    padding-top: 8px;
+}
+.icon-button i {
+    
+    border-radius: 2.6rem;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    margin: 0 5px 10px;
+    position: relative;
+    text-align: center;
+    transition: .2s ;
+    width: 2.6rem;
+}
+.icon-button i:hover{
+    background-color: black;
+}
+.github i{
+   background-color: #333;
+}
+.linkedin i{
+   background-color:  #0e76a8;
+    
+}
+.facebook i{
+   background-color:  #3b5998;
+}
+.envelope i{
+  background-color:  #ea4335;
+}
+.whatsapp i{
+    background-color: #4FCE5D;
+}
+.instagram i{
+     background-color: #E4405F; 
+}
+.buttons button{
+    padding: 13px 22px;
+    border-radius: 6px;
+    background-color:#55198b;
+    color:white
+    ;
+    border: #55198b;
+    font-weight: 700;
+    transition: .5s;
+}
+.buttons{
+    padding-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+.buttons :hover{
+    background-color:black;
+    transition: .5s;
+}
+.skill-sec{
+    display: flex;
+    align-items: center;
+    font-family: montserrrat-regular;
+    padding-top: 100px ;
+}
+.skill-img {
+    width: 100%;
+}
+.skill-img img{
+  width: 500px;
+}
+.skill-text{
+  
+    padding-top: 40px;
+}
+.skill-text h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: #000;
+    padding-bottom: 15px;
+}
+.para1 p{
+    color:#868e96 ;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+ .icon a{
+font-size: 40px;
+color: #868e96;
+
+margin-left: 10px;}
+
+.icon a:hover{
+    color: #000;
+}
+.para{
+    padding-top: 8px;
+}
+.para p{
+font-size:20;
+color:#868e96 ;
+}
+.meter{
+    width: 90%;
+    background-color: #ece6e6;
+    border-radius:25px ;
+    height: 20px;
+    position: relative;
+}
+.skill-bar{
+    display: flex;
+align-items:center ;
+}
+.skill {
+    line-height: 3.5vw;
+}
+
+.meter span{
+    background-color: #aaa5ff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 6px;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+.skill-bars{
+    width: 50%;
+}
+.skill-bar h1{
+    font-size: 50px;
+ 
+    padding-bottom: 10px;
+}
+.meter1{
+    width: 90%;
+}
+.meter2{
+    width: 80%;
+}
+.meter3{
+width: 70%;
+}
+.bar-img img{
+   padding-top: 20px;
+    height: 535px;
+    width: 600px;
+   
+}
+.edu-img img{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 30px;
+}
+.edu{
+    display: flex;
+}
+.education h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.experience{
+    padding-bottom: 00px;
+    padding-top: 100px;
+}
+.assignments{
+    padding-top: 100px;
+    
+}
+.assignments h1{
+    padding-bottom: 40px;
+    font-size: 60px;
+}
+.cards{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    
+}
+.card img{
+    height: 160px;
+    width:280px;
+    object-fit: cover;
+}
+.box{
+    box-shadow:rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+ 
+}
+.headi h6{
+padding-bottom: 10px;
+padding-top: 15px;
+}
+.btn:hover{
+    background-color:#02374f;
+}
+
+.cont-text h1{
+padding-top: 100px;
+}
+.conta{
+    color: #868e96;
+}
+.cont-text span{
+    font-size: large;
+    font-family: montserrrat-regular;
+}
+.loca i{
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.cont-text {
+   padding-bottom: 100px;
+   width: 80%;
+}
+.cont-text h5{
+
+font-family: montserrrat-regular;
+}
+.conta-img  img{
+    border: .5rem solid #6c63ff;
+    border-radius: 50%;
+    box-shadow: 0 30px 30px -30px #0000001a;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+
+  
+   
+  
+    
+}
+.contacts{
+    display: flex;
+    align-items: center;
+}
+.last p{
+    text-align: center;
+    font-family: montserrrat-regular;
+    color: #868e96;
+}
+    
+@media screen and (max-width:768px) { 
+    .banner {
+      flex-wrap: wrap;
+    }
+    .content-area{
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    
+    .skill-sec{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+   
+    .skill-text{
+        width: 100%;
+    }
+    .skill-bar{
+        flex-wrap: wrap;
+        
+    }
+    .skill-bars{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .cont-text h5{
+        display: none;
+    }
+    .cards{
+        flex-wrap:wrap ;
+       
+       
+    }
+    
+   
+}
+@media screen and (max-width:607px){
+    .header .logo{
+        display: none;
+    }
+.contacts{
+    flex-wrap: wrap;
+    
+}
+.conta-img{
+    display: none;
+}
+
+
+}
+
+@media screen and (max-width:400px){
+
+.header .logo{
+    display: none;
+}
+.banner{
+    flex-wrap: wrap;
+    padding: none;
+}
+.content-area{
+    width: 100%;
+}
+
+}
+
+
+    
+
+
+
+
